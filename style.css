@@ -58,41 +58,6 @@ select {
   color: white;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  background: #292e49;
-  color: white;
-
-  padding-right: 20px;
-  box-sizing: border-box;
-  text-align: right;
-  border-top: 2px solid;
-  border-image-slice: 1;
-  border-top-width: 5px;
-  border-image-source: linear-gradient(
-    90deg,
-    rgba(167, 141, 255, 1) 0%,
-    rgba(132, 98, 255, 1) 35%,
-    rgba(107, 66, 255, 1) 100%
-  );
-}
-
-.footer a {
-  color: rgb(163, 137, 255);
-  text-decoration: none;
-}
-
-.footer a:hover {
-  text-shadow: 0 0 10px rgb(163, 137, 255);
-  transition: 0.3s ease-in-out;
-}
-
 .icon {
   display: inline-block;
   width: 16px;
